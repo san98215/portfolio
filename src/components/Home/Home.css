@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    height: 91vh;
+    width: 80%;
+    color: #b35c5c;
+}
+
+.home-wrapper {
+    background-color: rgb(239 239 226);
+    border-radius: 10px;
+    outline: 5px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 80%;
+    text-align: center;
+}
+
+.home-header {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.home-header p {
+    margin: 0;
+    font-size: 3rem;
+    font-family: sans-serif;
+}

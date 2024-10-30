@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  margin-inline: auto;
+  min-height: 100vh;
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 100px;
+  height: 80vmin;
   pointer-events: none;
+  margin-bottom: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +30,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.footer {
+  height: 200px;
 }
 
 @keyframes App-logo-spin {
