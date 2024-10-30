@@ -8,6 +8,13 @@
     height: 100%;
 }
 
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .skills-header {
     display: flex;
     flex-direction: row;
@@ -44,11 +51,5 @@
     width: 100%;
     height: 89%;
     border-bottom: 7px solid rgba(255, 255, 255, 0.2);
-}
-
-.skills-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 

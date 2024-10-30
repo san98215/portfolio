@@ -2,9 +2,18 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    margin-inline: auto;
+    justify-content: start;
     align-items: center;
+    height: 100%;
+    max-width: 100vw;
     padding-top: 4rem;
+}
+
+
+.projects-container {
+    justify-content: space-between;
+    width: 100%;
 }
 
 .projects-header {
@@ -44,9 +53,11 @@
     border-bottom: 7px solid rgba(255, 255, 255, 0.2);
 }
 
-.projects-container {
+.projects-list {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    overflow-x: scroll;
 }

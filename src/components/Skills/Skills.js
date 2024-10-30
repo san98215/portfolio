@@ -22,12 +22,12 @@ const Skills = () => {
 
     return (
         <section id="skills" className="skills">
-            <div className="skills-header">
-                <div className="skills-border-left"></div>
-                <p>Skills</p>
-                <div className="skills-border-right"></div>
-            </div>
             <div className="skills-wrapper">
+                <div className="skills-header">
+                    <div className="skills-border-left"></div>
+                    <p>Skills</p>
+                    <div className="skills-border-right"></div>
+                </div>
                 <SkillSubsection title="Programming Languages" skills={ProgrammingLangues}/>
                 <SkillSubsection title="Web Development" skills={WebDevelopment}/>
             </div>
