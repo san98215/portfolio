@@ -6,9 +6,11 @@
     justify-content: start;
     align-items: center;
     height: 100%;
+    padding-bottom: 4rem;
+    background-color: rgba(68, 143, 163, 0.7);
 }
 
-.skills-wrapper {
+.skills-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,21 +22,23 @@
     flex-direction: row;
     height: 4rem;
     width: 100%;
-    margin-top: 2rem;
-    font-size: 2.5rem;
+    padding-top: 2rem;
+    font-size: 2.5rem;    
     color: white;
+    background-color: rgba(46, 46, 40, 1);
 }
 
 .skills-header p {
     width: 250px;
     justify-content: flex-start;
-    background: rgba(46, 46, 40, 0.904);
     padding: 0;
     margin: 0;
-    border-top: 7px solid rgba(255, 255, 255, 0.2);
-    border-left: 7px solid rgba(255, 255, 255, 0.2);
-    border-right: 7px solid rgba(255, 255, 255, 0.2);
+    background-clip: padding-box;
+    border-top: 7px solid rgb(26, 26, 26);
+    border-left: 7px solid rgb(26, 26, 26);
+    border-right: 7px solid rgb(26, 26, 26);
     border-radius: 10px 10px 0 0;
+    background-color: rgba(68, 143, 163, 0.7);
 }
 
 .skills-border-left {
@@ -42,7 +46,7 @@
     content: "";
     width: 8%;
     height: 89%;
-    border-bottom: 7px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 7px solid rgb(26, 26, 26);
 }
 
 .skills-border-right {
@@ -50,6 +54,6 @@
     content: "";
     width: 100%;
     height: 89%;
-    border-bottom: 7px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 7px solid rgb(26, 26, 26);
 }
 

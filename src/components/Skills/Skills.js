@@ -15,14 +15,14 @@ const Skills = () => {
         { name: "HTML", icon: "devicon-html5" },
         { name: "CSS", icon: "devicon-css3" },
         { name: "React.js", icon: "devicon-react" },
-        { name: "Node.js", icon: "devicon-nodejs" },
+        { name: "Node.js", icon: "logos-nodejs-icon" },
         { name: "Express.js", icon: "devicon-express" },
         { name: "MongoDB", icon: "devicon-mongodb" },
     ];
 
     return (
         <section id="skills" className="skills">
-            <div className="skills-wrapper">
+            <div className="skills-container">
                 <div className="skills-header">
                     <div className="skills-border-left"></div>
                     <p>Skills</p>
