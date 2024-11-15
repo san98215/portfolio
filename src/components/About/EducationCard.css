@@ -1,0 +1,73 @@
+.education-card-uga {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    background: linear-gradient(0deg, rgba(99,38,38,1) 4%, rgba(40,44,52,1) 40%);
+    box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.53);
+    overflow: hidden;
+    transition: 0.5s all;
+}
+
+.education-card-gt {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    background: linear-gradient(0deg, rgba(121,106,69,1) 4%, rgba(40,44,52,1) 40%);
+    box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.53);
+    overflow: hidden;
+    transition: 0.5s all;
+}
+
+.education-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    padding: 1rem 1rem 1rem 1rem;
+    overflow: hidden;
+}
+
+.education-card-uga img {
+    width: 100%;
+    border: solid 2px rgb(121, 123, 129);
+    border-radius: 0.7rem;
+    background: rgb(0, 0, 0);
+    background-clip: border-box;
+}
+
+.education-card-gt img {
+    width: 100%;
+    border: solid 2px rgb(121, 123, 129);
+    border-radius: 0.7rem;
+    background: rgb(0, 46, 83);
+    background-clip: border-box;
+}
+
+.education-card-body {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 2rem 1rem 0;
+    text-align: left;
+}
+
+.education-card-body p, h2 {
+    margin: 0;
+}
+
+.education-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.education-card-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    gap: 5px;
+    font-family: 'Oxygen';
+}

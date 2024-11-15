@@ -1,11 +1,12 @@
 .project-item {
-    min-width: 364px;
-    width: 364px;
     height: 450px;
-    background: #383838;
+    width: 100%;
+    min-width: 365px;
+    background: rgb(40,44,52);
+    box-shadow: 0 7px 15px 5px rgba(0, 0, 0, 0.53);
+    border: solid 2px rgba(255, 255, 255, 0.2);
     border-radius: 19px;
     overflow: hidden;
-    cursor: pointer;
     transition: all 0.25s ease-in-out;
 }
 
@@ -34,16 +35,16 @@
     gap: 0.5rem;
 }
 
+.project-icon {
+    font-size: 1rem;
+    width: 60px;
+    height: 40px;
+}
+
 #tooltip-top > .tooltip-inner {
     background-color: #fff;
     color: #000;
     border-radius: 5px;
     padding: 2.5px;
     margin-bottom: 2px;
-}
-
-.project-icon {
-    font-size: 1rem;
-    width: 60px;
-    height: 40px;
 }

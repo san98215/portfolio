@@ -8,7 +8,7 @@ const Skills = () => {
         { name: "Javascript", icon: "devicon-javascript" },
         { name: "Typescript", icon: "devicon-typescript" },
         { name: "C++", icon: "devicon-cplusplus" },
-        { name: "Java", icon: "devicon-java" },
+        { name: "Java", icon: "logos-java" },
     ];
 
     const WebDevelopment = [
@@ -18,6 +18,14 @@ const Skills = () => {
         { name: "Node.js", icon: "logos-nodejs-icon" },
         { name: "Express.js", icon: "devicon-express" },
         { name: "MongoDB", icon: "devicon-mongodb" },
+    ];
+
+    const MachineLearning = [
+        { name: "PyTorch", icon: "devicon-pytorch" },
+        { name: "ScikitLearn", icon: "devicon-scikitlearn" },
+        { name: "Numpy", icon: "devicon-numpy" },
+        { name: "Pandas", icon: "devicon-pandas" },
+        { name: "Matplotlib", icon: "devicon-matplotlib" },
     ];
 
     return (
@@ -30,6 +38,7 @@ const Skills = () => {
                 </div>
                 <SkillSubsection title="Programming Languages" skills={ProgrammingLangues}/>
                 <SkillSubsection title="Web Development" skills={WebDevelopment}/>
+                <SkillSubsection title="Machine Learning" skills={MachineLearning}/>
             </div>
         </section>
     );
