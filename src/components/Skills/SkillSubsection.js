@@ -9,7 +9,7 @@ const SkillSubsection = (props) => {
             <div className="skill-list">
                 {props.skills.map((skill, idx) => (
                     <div key={idx} className="skill-item">
-                        <Icon icon={skill.icon} className="skill-icon"/>
+                        <Icon icon={skill.icon} className="skill-icon" />
                         <p>{skill.name}</p>
                     </div>
                 ))}

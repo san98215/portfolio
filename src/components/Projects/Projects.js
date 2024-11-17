@@ -37,7 +37,7 @@ const Projects = () => {
             <div className="projects-container">
                 <div className="projects-header">
                     <div className="projects-border-left"></div>
-                        <p>Projects</p>
+                    <p>Projects</p>
                     <div className="projects-border-right"></div>
                 </div>
                 <div className="projects-list">

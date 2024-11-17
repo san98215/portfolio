@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { Link } from 'react-scroll';
+
 import './Navbar.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -15,19 +17,29 @@ const Navbar = () => {
             <div className="nav-wrapper">
                 <ul className="nav-items">
                     <li>
-                        <a className={active === 'home' ? 'active' : ''} onClick={handleActive} href="#">Home</a>
+                        <Link to="home" duration={700}>
+                            <a className={active === 'home' ? 'active' : ''} onClick={handleActive} href="#">Home</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className={active === 'about' ? 'active' : ''} onClick={handleActive} href="#">About</a>
+                        <Link to="about" duration={700} offset={-70}>
+                            <a className={active === 'about' ? 'active' : ''} onClick={handleActive} href="#About">About</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className={active === 'skills' ? 'active' : ''} onClick={handleActive} href="#">Skills</a>
+                        <Link to="skills" duration={700} offset={-90}>
+                            <a className={active === 'skills' ? 'active' : ''} onClick={handleActive} href="#">Skills</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className={active === 'projects' ? 'active' : ''} onClick={handleActive} href="#">Projects</a>
+                        <Link to="projects" duration={700} offset={-90}>
+                            <a className={active === 'projects' ? 'active' : ''} onClick={handleActive} href="#">Projects</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className={active === 'contact' ? 'active' : ''} onClick={handleActive} href="#">Contact</a>
+                        <Link to="contact" duration={700} offset={-90}>
+                            <a className={active === 'contact' ? 'active' : ''} onClick={handleActive} href="#">Contact</a>
+                        </Link>
                     </li>
                 </ul>
                 <div className="socials">

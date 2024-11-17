@@ -36,9 +36,9 @@ const Skills = () => {
                     <p>Skills</p>
                     <div className="skills-border-right"></div>
                 </div>
-                <SkillSubsection title="Programming Languages" skills={ProgrammingLangues}/>
-                <SkillSubsection title="Web Development" skills={WebDevelopment}/>
-                <SkillSubsection title="Machine Learning" skills={MachineLearning}/>
+                <SkillSubsection title="Programming Languages" skills={ProgrammingLangues} />
+                <SkillSubsection title="Web Development" skills={WebDevelopment} />
+                <SkillSubsection title="Machine Learning" skills={MachineLearning} />
             </div>
         </section>
     );

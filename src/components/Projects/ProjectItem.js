@@ -16,14 +16,14 @@ const ProjectItem = ({ project }) => {
                 {/* Tools */}
                 <div className="project-item-tools">
                     {project.tools.map((tool, idx) => (
-                        <OverlayTrigger 
-                            key={idx} 
-                            placement="top" 
+                        <OverlayTrigger
+                            key={idx}
+                            placement="top"
                             overlay={
                                 <Tooltip id="tooltip-top">
                                     <strong>{tool.name}</strong></Tooltip>
                             }>
-                                <Icon icon={tool.icon} className="project-icon"/>
+                            <Icon icon={tool.icon} className="project-icon" />
                         </OverlayTrigger>
                     ))}
                 </div>
