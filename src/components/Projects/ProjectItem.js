@@ -5,15 +5,10 @@ import { Icon } from "@iconify/react";
 
 const ProjectItem = ({ project }) => {
     return (
-        <section id="project-item" className="project-item">
+        <div className="project-item">
             <div className="project-item-container">
-                {/* Title */}
                 <h2>{project.title}</h2>
-
-                {/* Description */}
                 <p>Description</p>
-
-                {/* Tools */}
                 <div className="project-item-tools">
                     {project.tools.map((tool, idx) => (
                         <OverlayTrigger
@@ -30,7 +25,7 @@ const ProjectItem = ({ project }) => {
 
                 <p>More Info</p>
             </div>
-        </section>
+        </div>
     );
 };
 

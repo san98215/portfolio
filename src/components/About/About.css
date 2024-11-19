@@ -77,11 +77,14 @@
 .about-education {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-self: top;
   width: 50%;
   height: 100%;
   padding: 1rem;
   gap: 2rem;
   max-width: 800px;
   font-size: 1.4vmin;
+  padding-top: 3rem;
 }
+
+/* @media 1300px */

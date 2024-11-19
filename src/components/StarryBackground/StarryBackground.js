@@ -18,19 +18,6 @@ const StarryBackground = () => {
         starBaseRadius: 2.2,
     };
 
-    useEffect(() => {
-        const canvas = canvasRef.current;
-        const context = canvas.getContext("2d");
-        canvas.width = width;
-        canvas.height = height;
-
-        initializeStars();
-        animate(context);
-
-        window.onfocus = () => (paused.current = false);
-        window.onblur = () => (paused.current = true);
-    }, []);
-
     const randomRange = (min, max) => min + Math.random() * (max - min);
     const degreesToRads = (degrees) => (degrees / 180) * Math.PI;
 
@@ -86,6 +73,19 @@ const StarryBackground = () => {
         context.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
         context.fill();
     };
+
+    useEffect(() => {
+        const canvas = canvasRef.current;
+        const context = canvas.getContext("2d");
+        canvas.width = width;
+        canvas.height = height;
+
+        initializeStars();
+        animate(context);
+
+        window.onfocus = () => (paused.current = false);
+        window.onblur = () => (paused.current = true);
+    }, []);
 
     return <canvas ref={canvasRef} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100vh" }} />;
 };

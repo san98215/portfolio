@@ -1,10 +1,10 @@
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background: rgb(40, 40, 40);
+  background: #343a46;
   color: white;
+  height: 700px;
 }
 
 .contact-header {
@@ -49,6 +49,7 @@
   align-items: center;
   width: 100%;
   background: #343a46;
+  padding-bottom: 4rem;
 }
 
 .form-container {
