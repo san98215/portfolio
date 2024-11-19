@@ -18,7 +18,7 @@ const Navbar = () => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.offsetHeight;
                 const scrollPosition = window.scrollY;
-                
+
                 if (scrollPosition >= sectionTop - 200 && scrollPosition < sectionTop + sectionHeight) {
                     current = section.getAttribute('id');
                 }
@@ -33,7 +33,7 @@ const Navbar = () => {
             window.removeEventListener('scroll', handleScroll);
         }
     }, [isScrolling]);
-    
+
     const handleClick = (section) => {
         setIsScrolling(true);
         setActive(section);

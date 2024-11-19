@@ -7,7 +7,7 @@
   justify-content: center;
   font-size: 1.2rem;
   font-family: sans-serif;
-  z-index: 1;
+  z-index: 100;
 }
 
 .nav-wrapper {
@@ -25,10 +25,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-left: 3rem;
   list-style-type: none;
-  margin-inline: 6rem;
-  padding: 0;
-  display: flex;
 }
 
 .nav-items li {
@@ -66,11 +64,11 @@
 }
 
 .socials {
-  margin-inline: 6rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  padding-right: 3rem;
 }
 
 .social-icon {

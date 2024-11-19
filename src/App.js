@@ -14,13 +14,11 @@ function App() {
       <StarryBackground />
       <Navbar />
       <Home />
-      <div className="content">
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

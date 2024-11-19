@@ -1,26 +1,12 @@
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-inline: auto;
-  color: rgb(214, 213, 213);
-}
-
 .about-container {
   display: flex;
   flex-direction: column;
-  margin-inline: auto;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  background: rgb(41, 103, 121);
 }
 
 .about-header {
   display: flex;
-  flex-direction: row;
   height: 4rem;
-  width: 100%;
   padding-top: 20px;
   font-size: 2.5rem;
   background: linear-gradient(
@@ -32,16 +18,15 @@
 
 .about-header p {
   width: 250px;
-  background-color: rgb(41, 103, 121);
   margin: 0;
   border-top: 7px solid rgb(15, 15, 15);
   border-left: 7px solid rgb(15, 15, 15);
   border-right: 7px solid rgb(15, 15, 15);
   border-radius: 10px 10px 0 0;
+  background: rgb(41, 103, 121);
 }
 
 .about-border-left {
-  position: relative;
   content: "";
   width: 92%;
   height: 89%;
@@ -49,42 +34,48 @@
 }
 
 .about-border-right {
-  position: relative;
   content: "";
   width: 8%;
   height: 89%;
   border-bottom: 7px solid rgb(15, 15, 15);
 }
 
-.about-info {
+.about-content {
   display: flex;
-  justify-content: center;
-  padding: 4rem 2rem 4rem 2rem;
-  background: rgb(41, 103, 121);
-  font-size: 1.1rem;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
   letter-spacing: 0.025rem;
-  padding-bottom: 10rem;
 }
 
 .about-intro {
-  padding: 1rem 2rem 2rem 4rem;
-  width: 40%;
+  width: calc(100% - 20rem);
+  padding: 1rem 0 2rem 0;
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 900px;
 }
 
 .about-education {
   display: flex;
   flex-direction: column;
-  align-self: top;
-  width: 50%;
+  width: calc(100% - 20rem);
   height: 100%;
-  padding: 1rem;
-  gap: 2rem;
-  max-width: 800px;
-  font-size: 1.4vmin;
-  padding-top: 3rem;
+  gap: 3rem;
+  max-width: 900px;
+  padding-bottom: 3rem;
 }
 
-/* @media 1300px */
+@media screen and (max-width: 1400px) {
+  .about-intro {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .about-intro {
+    font-size: 1.3rem;
+  }
+}
