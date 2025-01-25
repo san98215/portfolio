@@ -8,7 +8,6 @@ const ProjectItem = ({ project }) => {
         <div className="project-item">
             <div className="project-item-container">
                 <h2>{project.title}</h2>
-                <p>Description</p>
                 <div className="project-item-tools">
                     {project.tools.map((tool, idx) => (
                         <OverlayTrigger
@@ -22,8 +21,12 @@ const ProjectItem = ({ project }) => {
                         </OverlayTrigger>
                     ))}
                 </div>
-
-                <p>More Info</p>
+                <p style={{textAlign: "left", height: "11rem", fontWeight: "500"}}>{project.description}</p>
+                {project.github && (
+                    <a href={project.github}>
+                        <Icon className="github-icon" icon="mdi-github" />
+                    </a>
+                )}
             </div>
         </div>
     );

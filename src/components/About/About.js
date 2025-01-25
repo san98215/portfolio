@@ -11,7 +11,7 @@ const About = () => {
         },
         {
             className: "education-card-gt", university: "Georgia Institute of Technology",
-            graduation: "2023-2024", degree: "M.S. Computational Science and Engineering", gpa: "3.85",
+            graduation: "2023-2024", degree: "M.S. Computational Science and Engineering", gpa: "3.90",
             img: "gt.png"
         },
     ];

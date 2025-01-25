@@ -49,27 +49,27 @@ const Navbar = () => {
                 <ul className="nav-items">
                     <li>
                         <Link to="home" duration={700}>
-                            <a className={active === 'home' ? 'active' : ''} onClick={() => handleClick('home')} href="#">Home</a>
+                            <a className={active === 'home' ? 'active' : ''} onClick={() => handleClick('home')} href="/#">Home</a>
                         </Link>
                     </li>
                     <li>
                         <Link to="about" duration={700} offset={-70}>
-                            <a className={active === 'about' ? 'active' : ''} onClick={() => handleClick('about')} href="#About">About</a>
+                            <a className={active === 'about' ? 'active' : ''} onClick={() => handleClick('about')} href="/#About">About</a>
                         </Link>
                     </li>
                     <li>
                         <Link to="skills" duration={700} offset={-90}>
-                            <a className={active === 'skills' ? 'active' : ''} onClick={() => handleClick('skills')} href="#">Skills</a>
+                            <a className={active === 'skills' ? 'active' : ''} onClick={() => handleClick('skills')} href="/#">Skills</a>
                         </Link>
                     </li>
                     <li>
                         <Link to="projects" duration={700} offset={-90}>
-                            <a className={active === 'projects' ? 'active' : ''} onClick={() => handleClick('projects')} href="#">Projects</a>
+                            <a className={active === 'projects' ? 'active' : ''} onClick={() => handleClick('projects')} href="/#">Projects</a>
                         </Link>
                     </li>
                     <li>
                         <Link to="contact" duration={700} offset={-90}>
-                            <a className={active === 'contact' ? 'active' : ''} onClick={() => handleClick('contact')} href="#">Contact</a>
+                            <a className={active === 'contact' ? 'active' : ''} onClick={() => handleClick('contact')} href="/#">Contact</a>
                         </Link>
                     </li>
                 </ul>

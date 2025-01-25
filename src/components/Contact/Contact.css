@@ -13,7 +13,7 @@
   height: 4rem;
   width: 100%;
   font-size: 2.5rem;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(41, 103, 121);
 }
 
 .contact-header p {
@@ -30,7 +30,7 @@
   position: relative;
   content: "";
   width: 92%;
-  height: 89%;
+  height:90%;
   border-bottom: 7px solid rgb(15, 15, 15);
 }
 
@@ -38,7 +38,7 @@
   position: relative;
   content: "";
   width: 8%;
-  height: 89%;
+  height: 90%;
   border-bottom: 7px solid rgb(15, 15, 15);
 }
 
