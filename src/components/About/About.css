@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
   flex-direction: column;
-  background: rgb(41, 103, 121);
+  background: rgb(30, 77, 92);
 }
 
 .about-header {
@@ -23,7 +23,7 @@
   border-left: 7px solid rgb(15, 15, 15);
   border-right: 7px solid rgb(15, 15, 15);
   border-radius: 10px 10px 0 0;
-  background: rgb(41, 103, 121);
+  background: rgb(30, 77, 92);
 }
 
 .about-border-left {

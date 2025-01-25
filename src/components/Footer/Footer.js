@@ -10,7 +10,7 @@ const Footer = () => {
                 <Icon icon="mdi-linkedin" className="footer-icon" />
             </div>
             <p>
-                Copyright © 2022 Seth Nye
+                © 2025 Seth Nye
             </p>
         </div>
     );

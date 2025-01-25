@@ -45,6 +45,8 @@
   font-size: 1rem;
   line-height: 1.5rem;
   transition-duration: 0.2s;
+  text-decoration: none;
+  color: white;
 }
 
 .home-buttons a:first-child {
@@ -53,4 +55,5 @@
 
 .home-buttons a:hover {
   background-color: rgba(133, 183, 157, 0.6);
+  cursor: pointer;
 }

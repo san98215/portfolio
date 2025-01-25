@@ -2,7 +2,7 @@
   height: 450px;
   width: 100%;
   min-width: 365px;
-  background: rgb(40, 44, 52);
+  background: rgb(37, 41, 48);
   box-shadow: 0 7px 15px 5px rgba(0, 0, 0, 0.53);
   border: solid 0.13rem rgba(255, 255, 255, 0.349);
   border-radius: 19px;
@@ -24,7 +24,7 @@
   flex-direction: column;
   height: 100%;
   padding: 2rem 2rem 0 2rem;
-  color:rgb(230, 229, 229)
+  color:rgba(230, 229, 229, 0.918)
 }
 
 .project-item-container h2 {
@@ -42,6 +42,8 @@
 .project-item-container p {
   text-align: "left";
   font-weight: "500";
+  font-family: "Open Sans";
+  font-size: 0.98rem;
 }
 
 .project-item-container a {

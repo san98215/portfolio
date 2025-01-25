@@ -57,7 +57,7 @@
 
 .education-card-body p {
   margin: 0;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
 }
 
 .education-card-header {
@@ -72,7 +72,7 @@
   flex-direction: column;
   margin-top: 0.5rem;
   gap: 5px;
-  font-family: "Oxygen";
+  font-family: "Open Sans";
 }
 
 @media screen and (max-width: 1300px) {

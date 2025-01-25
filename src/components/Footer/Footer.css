@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background: rgb(30, 30, 30);
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .footer-list {
@@ -29,4 +29,5 @@
 
 .footer p {
   color: rgba(255, 255, 255, 0.781);
+  margin-top: 0.2rem;
 }

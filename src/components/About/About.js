@@ -35,7 +35,7 @@ const About = () => {
                         I have tackled diverse challenges in healthcare and technology, driven by a passion for continous learning and problem-solving.
                     </p>
                     <p>
-                        My primary interests are in the areas of distributed computing, high-performance computing, and machine learning,
+                        My primary interests are in the areas of full-stack development, distributed computing, high-performance computing, and machine learning,
                         but I enjoy all types of programming and welcome opportunities to grow!
                     </p>
                 </div>
