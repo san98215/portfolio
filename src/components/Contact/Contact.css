@@ -4,7 +4,8 @@
   align-items: center;
   background: #343a46;
   color: white;
-  height: 700px;
+  height: 100%;
+  min-height: 650px;
 }
 
 .contact-header {
@@ -95,7 +96,7 @@ textarea {
   font-size: 16px;
   box-sizing: border-box;
   resize: vertical;
-  min-height: 80px;
+  min-height: 240px;
 }
 
 input:focus,

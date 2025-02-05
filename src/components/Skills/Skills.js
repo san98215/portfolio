@@ -5,10 +5,9 @@ import SkillSubsection from './SkillSubsection';
 const Skills = () => {
     const ProgrammingLangues = [
         { name: "Python", icon: "devicon-python" },
-        { name: "Javascript", icon: "devicon-javascript" },
-        { name: "Typescript", icon: "devicon-typescript" },
         { name: "C++", icon: "devicon-cplusplus" },
         { name: "Java", icon: "logos-java" },
+        { name: "Javascript", icon: "devicon-javascript" },
     ];
 
     const WebDevelopment = [
