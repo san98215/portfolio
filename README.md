@@ -23,15 +23,11 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/san98215/san98215.github.io.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd san98215.github.io
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm start
    ```
@@ -41,14 +37,14 @@ This portfolio can be deployed using GitHub Pages.
 
 ## Future Improvements
 - Add responsiveness to improve user-experience across various devices
-- Improve UI components.
-- Implement a dark/light mode toggle.
+- Improve UI components
+- Implement a dark/light mode toggle
 
 ## Contact
 If you’d like to collaborate or have any inquiries, feel free to reach out!
 - **Email:** sethnye10@gmail.com
-- **LinkedIn:** [linkedin.com/in/s-nye](#)
-- **GitHub:** [github.com/san98215](#)
+- **LinkedIn:** [linkedin.com/in/s-nye](https://www.linkedin.com/in/s-nye/)
+- **GitHub:** [github.com/san98215](https://github.com/san98215)
 
 ---
 
