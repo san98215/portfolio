@@ -5,13 +5,6 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 ## Live Demo
 [Click here to visit my portfolio](https://san98215.github.io/)
 
-## Features
-- **About Me:** A brief introduction and professional background.
-- **Projects:** Showcases various technical projects with descriptions and links to repositories.
-- **Skills:** Lists my technical skills.
-- **Resume:** Provides a downloadable version of my resume.
-- **Contact:** Allows visitors to reach out via email.
-
 ## Technologies Used
 - **Development:** React, JavaScript, HTML, CSS
 - **Hosting:** GitHub Pages
